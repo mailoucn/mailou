@@ -8,6 +8,7 @@ page {
 }
 
 .userinfo, .uploader, .tunnel {
+  margin-top: 40rpx;
   height: 140rpx;
   width: 100%;
   background: #fff;
@@ -29,9 +30,6 @@ page {
   background-color: white;
 }
 
-.userinfo-addEssay{
-  width: 80%;
-}
 .userinfo-avatar:after {
   border: none;
 }
@@ -136,8 +134,4 @@ page {
   font-size: 24rpx;
   line-height: 36rpx;
   word-break: break-all;
-}
-
-.userinfo-score {
-  width: 10%;
 }

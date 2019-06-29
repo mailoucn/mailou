@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 App({
     onLaunch: function () {
+        wx.cloud.init();
         var _this = this;
         var logs = wx.getStorageSync('logs') || [];
         logs.unshift(Date.now());

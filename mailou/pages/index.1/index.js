@@ -5,8 +5,6 @@ Page({
   data: {
     avatarUrl: './user-unlogin.png',
     userInfo: {},
-    userScore:0,
-    essays:[],
     logged: false,
     takeSession: false,
     requestResult: ''
@@ -36,9 +34,6 @@ Page({
         }
       }
     })
-
-    this.onGetOpenid();
-    this.getEssays();
   },
 
   onGetUserInfo: function(e) {
@@ -50,59 +45,6 @@ Page({
       })
     }
   },
-  addEssay : function(){
-    if(app.globalData.openid == null){
-      wx.showToast({
-        title: '未进行授权',
-      })
-      return;
-    }
-    const db = wx.cloud.database()
-    db.collection('essay').add({
-      data: {
-        title: "这是一个DEMO",
-        count: 15,
-        userId: app.globalData.openid
-      },
-      success: res => {
-        wx.showToast({
-          title: '发布文章成功',
-        });
-        this.getEssays();
-        console.log('[数据库] [新增记录] 成功，记录 _id: ', res._id)
-      },
-      fail: err => {
-        wx.showToast({
-          icon: 'none',
-          title: '新增记录失败'
-        })
-        console.error('[数据库] [新增记录] 失败：', err)
-      }
-    })
-  },
-  getEssays: function() {
-    const db = wx.cloud.database()
-    // 查询当前用户所有的 counters
-    db.collection('essay').where({
-      userId: app.globalData.openid
-    }).get({
-      success: res => {
-        this.setData({
-          essays: res.data
-        })
-        console.log('[数据库] [查询记录] 成功: ', res)
-        console.log(this.data)
-      },
-      fail: err => {
-        wx.showToast({
-          icon: 'none',
-          title: '查询记录失败'
-        })
-        console.error('[数据库] [查询记录] 失败：', err)
-      }
-    })
-  },
-
 
   onGetOpenid: function() {
     // 调用云函数
@@ -112,15 +54,15 @@ Page({
       success: res => {
         console.log('[云函数] [login] user openid: ', res.result.openid)
         app.globalData.openid = res.result.openid
-        // wx.navigateTo({
-        //   url: '../userConsole/userConsole',
-        // })
+        wx.navigateTo({
+          url: '../userConsole/userConsole',
+        })
       },
       fail: err => {
         console.error('[云函数] [login] 调用失败', err)
-        // wx.navigateTo({
-        //   url: '../deployFunctions/deployFunctions',
-        // })
+        wx.navigateTo({
+          url: '../deployFunctions/deployFunctions',
+        })
       }
     })
   },
