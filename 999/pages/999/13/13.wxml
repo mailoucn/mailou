@@ -1,0 +1,13 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十三愿</view>
+</cu-custom>
+	<view class="cu-form-group">
+		<view class="title">13首歌，不好听不要笑哦</view>
+  	</view>
+	<view class="cu-form-group" wx:for="{{musics}}" wx:key>
+		<view class="title">{{item.name}}</view>
+    <button class="cu-btn block line-orange lg orange radius sm" bindtap="click" data-value="{{item}}">
+    <text class="{{item.state}}"></text></button>
+	</view>
+  

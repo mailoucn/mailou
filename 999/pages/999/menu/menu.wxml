@@ -1,0 +1,28 @@
+<scroll-view scroll-y class="DrawerPage {{modalName=='viewModal'?'show':''}}">
+<cu-custom bgColor="bg-gradual-pink" isCustom="{{true}}"><view slot="content">愿望清单</view></cu-custom>
+
+        <swiper style='min-height:600rpx' class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key>
+      <image src="{{item.url}}" mode="scaleToFill"></image>
+    </swiper-item>
+  </swiper>
+
+			<view class='padding margin text-center'>
+				<view class='cu-btn bg-blue lg block shadow radius margin-xl' bindtap="showModal" data-target="viewModal">
+					愿望清单
+				</view>
+			</view>
+		</scroll-view>
+		<view class="DrawerClose {{modalName=='viewModal'?'show':''}}" bindtap="hideModal">
+			<text class="cuIcon-pullright"></text>
+		</view>
+		<scroll-view scroll-y class="DrawerWindow {{modalName=='viewModal'?'show':''}}">
+			<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
+				<view class="cu-item arrow" wx:for="{{desires}}" wx:key="index" bindtap="goto"  data-url="{{item.url}}">
+					<view class="content">
+						<text class="cuIcon-github text-grey"></text>
+						<text class="text-grey">{{item.name}}</text>
+					</view>
+				</view>
+			</view>
+		</scroll-view>

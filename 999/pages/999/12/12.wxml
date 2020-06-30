@@ -1,0 +1,47 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十二愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/121.jpg');height:1000rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      十二星座：希望你的男朋友有
+    </view>
+    <view class="padding-xs text-xl">
+      白羊的率真
+    </view>
+    <view class="padding-xs text-xl">
+      金牛的专一
+    </view>
+    <view class="padding-xs text-xl">
+      双子的浪漫
+    </view>
+    <view class="padding-xs text-xl">
+      巨蟹的温柔
+    </view>
+    <view class="padding-xs text-xl">
+      狮子的我
+    </view>
+    <view class="padding-xs text-xl">
+      处女的勤奋
+    </view>
+    <view class="padding-xs text-xl">
+      天秤的体贴
+    </view>
+    <view class="padding-xs text-xl">
+      天蝎的你
+    </view>
+    <view class="padding-xs text-xl">
+      射手的诚实
+    </view>
+    <view class="padding-xs text-xl">
+      摩羯的谦逊
+    </view>
+     <view class="padding-xs text-xl">
+      水瓶的创意
+    </view>
+     <view class="padding-xs text-xl">
+      双鱼的善解
+    </view>
+  </view>
+</view>

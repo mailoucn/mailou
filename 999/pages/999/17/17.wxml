@@ -1,0 +1,5 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十七愿</view>
+</cu-custom>
+<image src='https://xbt-data.oss-cn-beijing.aliyuncs.com/171.jpg' mode="widthFix"></image>

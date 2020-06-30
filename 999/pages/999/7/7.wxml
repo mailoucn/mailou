@@ -1,0 +1,26 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第七愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/71.jpg');height: 500rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿小九
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}"></text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}"></text>
+       </view>
+    <view class="padding-xs">
+      <text decode="{{true}}"></text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}"></text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}"></text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第九愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/91.jpg');height:900rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      唯有小九
+    </view>
+    
+  </view>
+</view>

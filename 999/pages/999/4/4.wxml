@@ -1,0 +1,42 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第四愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/41.jpg')">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿小九
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;春天：有人拿包，和闺蜜天天出去逛街</text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;夏天：有人打伞，穿着超短裙出去秀身材</text>
+       </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;秋天：有人陪伴，喝再多的奶茶也不会胖</text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;冬天：有人关怀,即使再冷心里也是暖暖的</text>
+    </view>
+  </view>
+</view>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/42.jpg');">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿我
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;春天：我希望是拿包的人</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;夏天：我希望是打伞的人</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;秋天：我希望是卖奶茶的人</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;冬天：我希望是羽绒服</text>
+    </view>
+  </view>
+</view>

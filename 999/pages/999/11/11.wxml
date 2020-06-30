@@ -1,0 +1,26 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十一愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/111.jpg');height: 1000rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿小九
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;18856601158</text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;永不换号</text>
+       </view>
+    <view class="padding-xs text-xl">
+      愿我
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;13936197913</text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;永不消失</text>
+    </view>
+  </view>
+</view>

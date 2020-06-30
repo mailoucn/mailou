@@ -1,0 +1,41 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/101.jpg');height:900rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      十面
+    </view>
+    <view class="padding-xs text-xl">
+      一面替你遮风挡雨
+    </view>
+    <view class="padding-xs text-xl">
+      一面替你踏遍荆棘
+    </view>
+    <view class="padding-xs text-xl">
+      一面替你指明方向
+    </view>
+    <view class="padding-xs text-xl">
+      一面替你排忧解难
+    </view>
+    <view class="padding-xs text-xl">
+      一面陪你齐头并进
+    </view>
+    <view class="padding-xs text-xl">
+      一面陪你欢声笑语
+    </view>
+    <view class="padding-xs text-xl">
+      一面给你真心
+    </view>
+    <view class="padding-xs text-xl">
+      一面给你快乐
+    </view>
+    <view class="padding-xs text-xl">
+      一面给你幸福
+    </view>
+    <view class="padding-xs text-xl">
+      一面希望是我
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十四愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/141.jpg');height:1200rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      我给微信发一张你的余额截图
+    </view>
+    
+  </view>
+</view>

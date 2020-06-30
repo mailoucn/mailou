@@ -1,0 +1,14 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第六愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/61.jpg');height:900rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      这个决定就是
+    </view>
+      <view class="padding-xs text-xl">
+      小九会是我接受且喜欢的最后一个女孩
+    </view>
+  </view>
+</view>

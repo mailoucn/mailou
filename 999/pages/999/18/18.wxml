@@ -1,0 +1,17 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第十八愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/181.jpg');height:600rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿小九，每次都是18岁生日，也希望以后都可以陪伴着你
+      
+    </view>
+    <view class="padding-xs text-xl">
+      送给小九的生日礼物，希望你能喜欢
+      
+    </view>
+    
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第二愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/21.jpg');height: 500rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿小九
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;白天万事如意，夜晚不失眠</text>
+    </view>
+  </view>
+</view>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/22.jpg');height: 500rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿我
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;有你的时候充满幸福，没有你的时候充满回忆</text>
+    </view>
+  </view>
+</view>

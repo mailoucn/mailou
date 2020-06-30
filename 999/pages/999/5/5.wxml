@@ -1,0 +1,48 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">第五愿</view>
+</cu-custom>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/51.jpg')">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿小九
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;视觉：看千姿百态，繁花似锦</text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;听觉：听甜言蜜语，砰然心动</text>
+       </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;嗅觉：闻百花香，拥护自然</text>
+    </view>
+     <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;味觉：品世间美食，还不会胖</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;触觉：心有所想，触有所及</text>
+    </view>
+  </view>
+</view>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('https://xbt-data.oss-cn-beijing.aliyuncs.com/51.jpg');">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      愿我
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;视觉：为你裆下一切污秽</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;听觉：为你听下一切谎言</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;嗅觉：希望能够成为你的空气</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;味觉：良药苦口，我来承受</text>
+    </view>
+    <view class="padding-xs">
+      <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;触觉：为你承担一切伤痛</text>
+    </view>
+  </view>
+</view>
